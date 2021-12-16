@@ -6,6 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Web Designing Company</title>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="resp.css">
 	<link rel="stylesheet" href="slider.css">
@@ -99,7 +101,7 @@
 				.</p>
 		</div>
 	</div>
-	<div class="container3">
+	<div class="container3" data-aos="slide-up">
 		<div class="c3_box"><img src="images/a-removebg-preview.png" alt="" class="c3_img">
 			<p>10+</p>
 			<p>Experience</p>
@@ -117,7 +119,7 @@
 			<p>Client Retention</p>
 		</div>
 	</div>
-	<div class="container4">
+	<div class="container4" data-aos="slide-up">
 		<p class="c4_title">Our Services</p>
 		<p class="c4_desc">We offer a wide range of Digital Marketing & Web Development Services.</p>
 		<div class="c4_box">
@@ -165,7 +167,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container5">
+	<div class="container5" data-aos="slide-up">
 		<p class="c5_title">OUR CLIENTS</p>
 		<P class="c5_desc">Since 2012 we’ve worked with many remarkable brands from all over</P>
 		<p> world and helped them with their IT infrastructure and marketing. Here are some of them:</P>
@@ -202,7 +204,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="sliderContainer">
+	<div class="sliderContainer" data-aos="slide-up">
 		<h2 style="    margin-bottom: 12px;
 	    color: #005281;
 	    font-size: 28px;
@@ -222,9 +224,7 @@
 			</div>
 		</div>
 	</div>
-
-
-	<div class="container6">
+	<div class="container6" data-aos="slide-down">
 		<p class="c6_title">OUR REVIEWS</p>
 		<div class="c6_box">
 			<img src="images/reveiw1.PNG" alt="">
@@ -232,7 +232,7 @@
 			<img src="images/review3.PNG" alt="">
 		</div>
 	</div>
-	<div class="container">
+	<div class="container" data-aos="slide-up">
 		<p class="c_desc">Ranked As The Most Powerful Mobile Apps & </p>
 		<p class="c_desc">Web Solution Provider Globally</p>
 		<p style="    font-size: 16px;
@@ -259,7 +259,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container7">
+	<div class="container7" data-aos="slide-up">
 		<div class="parallax">
 			<div class="c7_box">
 				<div class="c7_inerBox1"><img src="images/tea-removebg-preview.png" alt=""></div>
@@ -271,7 +271,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container8">
+	<div class="container8" data-aos="slide-up">
 		<div class="com">
 			<div class="c8_ul_links">
 				<p class="c8_title">LINKS</p>
@@ -325,12 +325,17 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- </div> -->
 	<footer>
 		<p> Copyright &copy; SAMPLE WEB TEMPLATE All right reserved</p>
 	</footer>
 </body>
 <script src="app.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+	AOS.init({
+		offset: 300,
+		duration: 1000,
+	});
+</script>
 
 </html>
